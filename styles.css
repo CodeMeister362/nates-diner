@@ -1,0 +1,177 @@
+/* Global */
+
+.hidden {
+    display: none;
+}
+
+/* Header */
+
+header {
+    background-image: url('./assets/burger.jpg');
+    background-size: cover;
+    background-position: center 355px;
+    height: 250px;
+    width: 100%;
+}
+
+.title, .subtitle {
+    color: white;
+    padding: 20px 20px 0px;
+    margin: 0;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.subtitle {
+    width: 40%;
+}
+
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu */
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    width: max-content 75%;
+}
+
+.food-emoji {
+    font-size: 100px;
+}
+
+.details {
+   max-width: 30%;
+}
+
+.add {
+    color: #008000;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.add:hover {
+    color: #45a049;
+}
+
+/* Order Summary */
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.remove {
+    color: #ff0000;
+    cursor: pointer;
+
+}.remove:hover {
+    color: #cd0000;
+}
+
+.order-btn, .submit-btn {
+    background-color: #008000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-btn:hover,
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Checkout Modal */
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-form {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 50px;
+    border: 1px solid #888;
+    width: 50%;
+    gap: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-form p {
+    text-align: center;
+    align-self: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1/2%;
+}
+
+label {
+    text-align: left;
+    padding-left: 24%;
+    padding-bottom: 1px;
+}
+
+.input-fields {
+    align-self: center;
+    border-radius: 4px;
+    width: 51%;
+    size: 25px;
+    border: 1px solid rgb(118, 118, 118);
+    margin-bottom: 5px;
+}
+
+select {
+    align-self: center;
+    width: 52%;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.close-btn {
+    color: #aaaaaa;
+    align-self: end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
